@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TODO App</title>
+    <style>
+        body {
+            background-color: #2d2f3b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .box {
+            background-color: #4e5d6c;
+            padding: 40px;
+            width: 350px;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px; 
+            background-color: #3b4a59;
+            color: white;
+        }
+
+        input[type="submit"] {
+            padding: 10px 15px;
+            background-color: #f85a3e;
+            color: white;
+        }
+
+        .work {
+            background-color: #3b4a59;
+            padding: 80px;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .work h2 {
+            color: #f85a3e;
+            margin-bottom: 10px;
+            text-align: center;
+           
+        }
+
+        .work ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .work li {
+            margin-bottom: 12px;
+            padding-left: 0;
+        }
+
+        input[type="checkbox"] {
+            padding-left: 0;
+        }
+
+        div {
+           font-size: 13px;
+            color: #f1f1f1;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1>MY TODO LIST</h1>
+
+        <input type="text" placeholder="Enter your task">
+        <input type="submit" value="Add">
+
+        <div class="work">
+            <h2>My Tasks</h2>
+            <ul>
+                <li><input type="checkbox"> Buy tomatoes</li>
+                <li><input type="checkbox"> Pick kids from school</li>
+                <li><input type="checkbox"> Wash dishes</li>
+            </ul>
+        </div>
+        <div>
+            Completed: 0 | Uncompleted: 0
+        </div>
+    </div>
+</body>
+</html>
